@@ -13,7 +13,7 @@
 ---
 
 ## :anchor: Installation
-
+  DONT RUN YARN ADD OR NPM INSTALL rn-segmented-control instead add this package as a local package
 ```sh
 download zip file and extract in project folder and paste this line 
 ---- "rn-segmented-control": "./react-native-segmented-control/", -----in package.json 
