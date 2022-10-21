@@ -15,9 +15,11 @@
 ## :anchor: Installation
 
 ```sh
-download zip file and extract in project folder and paste this line in package.json file under dependencies and run yarn or npm install
-"rn-segmented-control": "./react-native-segmented-control/",
-# or
+download zip file and extract in project folder and paste this line 
+---- "rn-segmented-control": "./react-native-segmented-control/", -----in package.json 
+file under dependencies and run yarn or npm install
+
+# 
 
 ```
 same examples from karthik will work with this package
