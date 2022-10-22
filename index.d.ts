@@ -1,5 +1,6 @@
 declare module 'rn-segmented-control' {
-  import {  ViewStyle, TextStyle } from "react-native"
+  // import {  ViewStyle, TextStyle } from "react-native"
+  import { ViewStyle, StyleProp, TextStyle } from "react-native";
   import React from 'react'
   export interface ShadowOffsetProps {
     width: number,
@@ -25,8 +26,8 @@ declare module 'rn-segmented-control' {
     activeTextWeight?: string;
     paddingVertical?: number;
     width?: number;
-    containerStyle?: ViewStyle;
-    tileStyle?: ViewStyle;
+    containerStyle?: StyleProp<ViewStyle>;
+    tileStyle?: StyleProp<ViewStyle>;
     textStyle?: TextStyle;
     isRTL?: boolean;
     theme?: "LIGHT" | "DARK";
