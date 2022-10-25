@@ -22,6 +22,8 @@ download zip file and extract in project folder and paste this line
 -----in package.json 
 file under dependencies and run yarn or npm install
 
+then add this package "yarn add deprecated-react-native-prop-types"
+or npm i deprecated-react-native-prop-types@2.2.0
 # 
 
 ```
